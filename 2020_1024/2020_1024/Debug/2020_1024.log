@@ -1,9 +1,9 @@
-﻿生成启动时间为 2020/10/24 14:12:37。
+﻿生成启动时间为 2020/10/24 17:23:31。
      1>项目“D:\Program Files\Git\2020_1024\2020_1024\2020_1024\2020_1024.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files\vs2013\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
          test.c
-     1>d:\program files\git\2020_1024\2020_1024\2020_1024\test.c(5): warning C4013: “system”未定义；假设外部返回 int
+     1>d:\program files\git\2020_1024\2020_1024\2020_1024\test.c(20): warning C4013: “system”未定义；假设外部返回 int
        Link:
          D:\Program Files\vs2013\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\Git\2020_1024\2020_1024\Debug\2020_1024.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program Files\Git\2020_1024\2020_1024\Debug\2020_1024.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\Git\2020_1024\2020_1024\Debug\2020_1024.lib" /MACHINE:X86 Debug\test.obj
          2020_1024.vcxproj -> D:\Program Files\Git\2020_1024\2020_1024\Debug\2020_1024.exe
@@ -11,4 +11,4 @@
 
 生成成功。
 
-已用时间 00:00:02.17
+已用时间 00:00:00.53
