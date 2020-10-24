@@ -2,6 +2,9 @@
 #include<stdio.h>
 #include<math.h>
 
+
+
+
 //求阶乘
 //递归和非递归分别实现求n的阶乘（不考虑溢出的问题）
 
