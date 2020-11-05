@@ -16,7 +16,7 @@ int main()
 {
 	int num1 = 10;
 	int num2 = 20;
-	//swap1(&num1,&num2);
+	//swap1(&num1,&num2);     
 	//printf("%d,%d\n", num1, num2);
 	swap2(&num1, &num2);
 	printf("%d,%d\n", num1, num2);
@@ -46,7 +46,10 @@ int main()
 //	system("pause");
 //	return 0;
 //}
-////打印整数二进制的奇数位和偶数位
+
+
+
+//打印整数二进制的奇数位和偶数位
 //void printOddBit(int num){
 //	printf("%d的奇数位为:",num);
 //	for (int i = 30; i >=0; i -= 2){
