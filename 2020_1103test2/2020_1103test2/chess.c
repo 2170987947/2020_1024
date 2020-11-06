@@ -67,12 +67,20 @@ int isFullChess(char chessbox[ROW][COL]){
 }
 //约定:返回x代表玩家赢了;返回o代表电脑赢了;返回a代表和棋
 char isWinner(char chessbox[ROW][COL]){
-	//行和列
+	//行
 	for (int row = 0; row < ROW; row++){
 		if (chessbox[row][0] != ' '
 			&&chessbox[row][0] == chessbox[row][1]
 			&& chessbox[row][0] == chessbox[row][2]){
 			return chessbox[row][0];
+		}
+	}
+	//列
+	for (int col = 0; col < COL; col++){
+		if (chessbox[0][col] != ' '
+			&&chessbox[0][col] == chessbox[1][col]
+			&& chessbox[0][col] == chessbox[2][col]){
+			return chessbox[0][col];
 		}
 	}
 	//对角线

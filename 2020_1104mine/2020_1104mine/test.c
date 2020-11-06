@@ -29,6 +29,7 @@ int  isMine(char mineMap[ROW][COL], int row, int col){
 	}
 	return 0;
 }
+//
 void init(char showMap[ROW][COL], char mineMap[ROW][COL]){
 
 	for (int row = 0; row < ROW; row++){
@@ -61,6 +62,7 @@ void print(char Map[ROW][COL]){
 		printf("\n");
 	}
 }
+//(row,col)附近格子地雷的个数
 int  MineNerborhood(char mineMap[ROW][COL], int row, int col){
 	if (row < 0 || row >= ROW
 		|| col < 0 || col >= COL){
@@ -76,12 +78,17 @@ int  MineNerborhood(char mineMap[ROW][COL], int row, int col){
 	}
 	return count + '0';
 }
+//一局游戏
 void game(){
 	srand(time(0));
+	//展示给玩家的地图
 	char showMap[ROW][COL];
+	//雷的布局图
 	char mineMap[ROW][COL];
+	//对两个地图进行初始化
 	init(showMap, mineMap);
 	//print(mineMap);
+	//玩家已经扫到的不是雷的格子的数目
 	int notMineCount = 0;
 	printf("扫雷游戏开始啦!\n");
 	while (1){
