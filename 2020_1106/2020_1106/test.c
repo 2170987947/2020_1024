@@ -1,7 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
-
-int main(){
+//计算求和
+//求Sn=a+aa+aaa+aaaa+aaaaa的前5项之和，其中a是一个数字，
+//例如：2 + 22 + 222 + 2222 + 22222
+int sum(int num, int term){
+	int total = 0;
+	int n=num;
+	for (int i = 1; i <= term; i++){
+		total += num;
+		//printf("%f\n", pow(num, i));
+		num = n+num*10;
+	}
+	return total;
+}
+int main()
+{
+	//printf("%f\n", pow(2, 3));
 	printf("请输入数字和项数:");
 	int num = 0, term = 0;
 	scanf("%d %d", &num, &term);
