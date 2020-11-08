@@ -29,7 +29,7 @@ int  isMine(char mineMap[ROW][COL], int row, int col){
 	}
 	return 0;
 }
-//
+//≥ı ºªØ
 void init(char showMap[ROW][COL], char mineMap[ROW][COL]){
 
 	for (int row = 0; row < ROW; row++){
