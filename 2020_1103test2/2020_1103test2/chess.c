@@ -136,6 +136,7 @@ void game(){
 		}
 	}
 }
+//菜单
 int menu(){
 	printf("===============\n");
 	printf("1.开始游戏\n");
